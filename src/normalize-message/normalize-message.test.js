@@ -35,7 +35,7 @@ const messageObj = {
 
 const resultingNormalizedMessage = {
     service: "gitter",
-    serviceId: "dbwgitter-v0.0.1",
+    serviceId: "dbwgitter-v1.0.0",
     time: 1507108399271,
     to: "dbwebb-se/webbprogrammering17",
     from: "arminza",
