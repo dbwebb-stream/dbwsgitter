@@ -18,6 +18,11 @@ Websocketservern lyssnar på port som anges med miljövariabeln `PORT` eller por
 ## Stoppa
 `$ npm stop`
 
+License
+------------------
+
+MIT.
+
  .
 ..:  @ 2017 Anders Nygren (litemerafrukt@gmail.com)
 ```
