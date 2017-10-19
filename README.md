@@ -1,11 +1,20 @@
-# dbwebb gitter stream
+# dbwebb-stream gitter
 
-A service that listens to a users public gitter rooms and proxy messages on a websocket.
+En server som lyssnar på alla publika gitter-rum hos den användare som anges via gitter-token i `gitter-token.js`. Nya meddelanden i gitter-rummen skickas vidare via websocket.
 
-You have to supply a valid gitter token.
+Websocketservern lyssnar på port som anges med miljövariabeln `PORT` eller port 1338 som standard.
 
-Start:
+## Installation
+1. Klona repot.
+2. `cd` in och kör `$ npm install`
+3. Ange ett giltigt gitter-token i `gitter-token.js`
+
+## Starta
 `$ npm start`
 
-Stop:
+## Stoppa
 `$ npm stop`
+
+ .
+..:  @ 2017 Anders Nygren (litemerafrukt@gmail.com)
+```

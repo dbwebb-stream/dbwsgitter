@@ -1,4 +1,4 @@
 module.exports = {
-    port: process.env.DBWGITTER || 1338,
+    port: process.env.PORT || 1338,
     processTitle: "dbwgitter"
 };
