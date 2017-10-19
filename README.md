@@ -2,6 +2,8 @@
 
 En server som lyssnar på alla publika gitter-rum hos den användare som anges via gitter-token i `gitter-token.js`. Nya meddelanden i gitter-rummen skickas vidare via websocket.
 
+Skaffa ett gitter-token på [https://developer.gitter.im/docs/welcome](https://developer.gitter.im/docs/welcome)
+
 Websocketservern lyssnar på port som anges med miljövariabeln `PORT` eller port 1338 som standard.
 
 ## Installation
