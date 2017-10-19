@@ -7,7 +7,8 @@ Websocketservern lyssnar på port som anges med miljövariabeln `PORT` eller por
 ## Installation
 1. Klona repot.
 2. `cd` in och kör `$ npm install`
-3. Ange ett giltigt gitter-token i `gitter-token.js`
+3. Kopiera `edit-me-gitter-token.js` till `gitter-token.js`
+4. Ange ett giltigt gitter-token i `gitter-token.js`
 
 ## Starta
 `$ npm start`
